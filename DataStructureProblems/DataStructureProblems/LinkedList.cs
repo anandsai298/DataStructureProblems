@@ -105,5 +105,19 @@ namespace DataStructureProblems
             }
             NewNode.next = null;
         }
+        public void Search(int value)
+        {
+            Node node = this.head;
+            int count = 0;
+            while (node!=null)
+            {
+                if(node.data==value)
+                {
+                    Console.WriteLine(count);
+                }
+                node = node.next;
+                count++;
+            }
+        }
     }
 }
