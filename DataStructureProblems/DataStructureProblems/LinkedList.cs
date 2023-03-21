@@ -80,5 +80,13 @@ namespace DataStructureProblems
             newstnode.next = prev.next;
             prev.next= newstnode;
         }
+        public void RemoveFirstNode()
+        {
+            if(this.head==null)
+            {
+                Console.WriteLine("LinkedList is empty");
+            }
+            this.head = this.head.next;
+        }
     }
 }
