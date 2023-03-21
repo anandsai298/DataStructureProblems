@@ -19,11 +19,17 @@ namespace DataStructureProblems
             //linkedList.Display();
             //linkedList.InsertParticularPosition(1,30);
             //linkedList.Display();
+            //linkedList.Add(56);
+            //linkedList.Add(30);
+            //////linkedList.Add(70);
+            //linkedList.Display();
+            ////linkedList.RemoveFirstNode();
+            //linkedList.Display();
             linkedList.Add(56);
             linkedList.Add(30);
             linkedList.Add(70);
             linkedList.Display();
-            linkedList.RemoveFirstNode();
+            linkedList.RemoveLastNode();
             linkedList.Display();
         }
     }
