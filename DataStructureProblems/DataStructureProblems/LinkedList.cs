@@ -27,5 +27,19 @@ namespace DataStructureProblems
             }
             Console.WriteLine("{0} inserted into LinkedList",node.data);
         }
+        public void AddReverseOrder(int data) 
+        {
+            Node newnode=new Node(data);
+            if (this.head == null)
+             {
+                this.head = newnode;
+             }
+            else
+            {
+                Node temp = this.head;
+                head = newnode;
+                head.next = temp;
+            }
+        }
     }
 }
