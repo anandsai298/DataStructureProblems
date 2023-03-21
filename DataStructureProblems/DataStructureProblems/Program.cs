@@ -10,9 +10,15 @@ namespace DataStructureProblems
             //linkedList.Add(56);
             //linkedList.Add(30);
             //linkedList.Add(70);
-            linkedList.AddReverseOrder(70);
-            linkedList.AddReverseOrder(30);
-            linkedList.AddReverseOrder(50);
+            //linkedList.AddReverseOrder(56);
+            //linkedList.AddReverseOrder(30);
+            //linkedList.AddReverseOrder(70);
+            //linkedList.Display();
+            linkedList.Add(56);
+            linkedList.Add(70);
+            linkedList.Display();
+            linkedList.InsertParticularPosition(1,30);
+            linkedList.Display();
         }
     }
 }
