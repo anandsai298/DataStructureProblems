@@ -42,5 +42,21 @@ namespace DataStructureProblems
                 temp = temp.next;
             }
         }
+        public void Dequeue()
+        {
+            if (this.head == null)
+            {
+                Console.WriteLine("stack is empty,Deletion is not possible");
+                return;
+            }
+            else
+            {
+                while (this.head != null)
+                {
+                    Console.WriteLine("value popped is {0}", this.head.data);
+                    this.head = this.head.next;
+                }
+            }
+        }
     }
 }
