@@ -13,11 +13,12 @@ namespace DataStructureProblems
             linkedList.Add(30);
             linkedList.Add(70);
             linkedList.Display();
-            Console.WriteLine("Display search data of 30");
+            Console.WriteLine("Display position of search data 30 is");
             int position = linkedList.Search(30);
             Console.WriteLine("Display insert data after 30 is 40");
             linkedList.InsertParticularPosition(position + 1, 40);
             linkedList.Display();
+            Console.WriteLine("Display position of search data 40 is");
             int searchDelete = linkedList.Search(40);
             linkedList.DeleteNodeAtParticularPosition(searchDelete);
             linkedList.Display();
