@@ -64,7 +64,10 @@ namespace DataStructureProblems
                         linkedList5.Add(70);
                         linkedList5.Display();
                         Console.WriteLine("Display search data of 30");
-                        linkedList5.Search(30);
+                        int position = linkedList5.Search(30);
+                        Console.WriteLine("Display insert data after 30 is 40");
+                        linkedList5.InsertParticularPosition(position+1, 40);
+                        linkedList5.Display();
                         break;
                 }
             }   

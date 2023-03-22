@@ -105,7 +105,7 @@ namespace DataStructureProblems
             }
             NewNode.next = null;
         }
-        public void Search(int value)
+        public int Search(int value)
         {
             Node node = this.head;
             int count = 0;
@@ -114,10 +114,12 @@ namespace DataStructureProblems
                 if(node.data==value)
                 {
                     Console.WriteLine(count);
+                    return count;
                 }
                 node = node.next;
                 count++;
             }
+            return count;
         }
     }
 }
